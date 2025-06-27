@@ -656,8 +656,14 @@
             <h2 class="section-title">Join the Movement</h2>
             <p class="section-subtitle">Be among the first to experience the next generation of AI-powered nutrition when we relaunch</p>
             
-            <form class="join-form" onsubmit="handleSubmit(event)">
+            <!-- <form class="join-form" onsubmit="handleSubmit(event)">
                 <input type="email" placeholder="Enter your email address" required>
+                <button type="submit">Join Waitlist</button>
+            </form> -->
+
+            <form action="https://formspree.io/f/mdkzykky" method="POST">
+                <input type="email" name="email" required>
+                <input type="hidden" name="_subject" value="New FlavorFuel Waitlist Signup">
                 <button type="submit">Join Waitlist</button>
             </form>
             
